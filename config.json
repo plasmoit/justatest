@@ -11,5 +11,8 @@
         }
       ]
     }
+  },
+  "log": {
+    "verbosity": "verbose"
   }
 }
