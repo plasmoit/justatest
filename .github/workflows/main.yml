@@ -14,4 +14,4 @@ jobs:
       - name: Install dependencies
         run: npm init -y && npm install style-dictionary
       - name: Build Style Dictionary
-        run: style-dictionary build
+        run: npx style-dictionary build
