@@ -1,7 +1,13 @@
 {
   "platforms": {
     "css": {
-      "buildPath": "build/css/"
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
     }
   }
 }
