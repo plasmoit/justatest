@@ -1,0 +1,15 @@
+name: Generate CSS from tokens with Style Dictionary
+
+on: [push]
+
+jobs:
+  generate_css:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print Node.js version
+        run: node -v 
+      - name: Install dependencies
+        run: npm install style-dictionary
+      - name: Build Style Dictionary
+        run: npm run build
