@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Debug
+        run: echo "${{ github.workspace }} -- ${{ github.repository }}"
       - name: Print Node.js version
         run: node -v 
       - name: Install dependencies
         run: npm install style-dictionary
-      - name: Debug
-        run: pwd && echo "${{ github.workspace }} -- ${{ github.repository }}"
       - name: Build Style Dictionary
-        run: npm run build
+        run: style-dictionary build
