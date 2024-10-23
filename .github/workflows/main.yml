@@ -11,5 +11,7 @@ jobs:
         run: node -v 
       - name: Install dependencies
         run: npm install style-dictionary
+      - name: Debug
+        run: pwd && echo "${{ github.workspace }} -- ${{ github.repository }}"
       - name: Build Style Dictionary
-        run: npm build
+        run: npm run build
