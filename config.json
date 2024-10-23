@@ -1,7 +1,7 @@
 {
   "platforms": {
     "css": {
-      "buildPath": "build/css"
+      "buildPath": "build/css/"
     }
   }
 }
