@@ -15,3 +15,7 @@ jobs:
         run: npm init -y && npm install style-dictionary
       - name: Build Style Dictionary
         run: npx style-dictionary build
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Style Dictionary build output
+          file_pattern: 'build/css/*.css'
