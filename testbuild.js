@@ -21,6 +21,9 @@ const sd = new StyleDictionary({
       ],
     },
   },
+  log: {
+    verbosity: 'verbose'
+  },
 });
 
 await sd.cleanAllPlatforms();
