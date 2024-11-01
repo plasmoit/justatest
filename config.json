@@ -1,8 +1,9 @@
 {
   "source": ["tokens.json"],
+  "preprocessors": ["tokens-studio"],
   "platforms": {
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "tokens-studio",
       "buildPath": "build/css/",
       "files": [
         {
