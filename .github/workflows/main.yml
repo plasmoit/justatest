@@ -12,7 +12,7 @@ jobs:
       - name: Print Node.js version
         run: node -v 
       - name: Install dependencies
-        run: npm init -y && npm install style-dictionary
+        run: npm init -y && npm install style-dictionary @tokens-studio/sd-transforms
       - name: Build Style Dictionary
         run: npx style-dictionary build
       - uses: stefanzweifel/git-auto-commit-action@v5
