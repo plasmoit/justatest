@@ -17,6 +17,11 @@ const sd = new StyleDictionary({
         {
           destination: 'variables.css',
           format: 'css/variables',
+          filter: {
+            attributes: {
+              category: 'semantic'
+            }
+          }
         },
       ],
     },
