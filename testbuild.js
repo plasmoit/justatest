@@ -19,7 +19,7 @@ const sd = new StyleDictionary({
           format: 'css/variables',
           filter: {
             attributes: {
-              category: 'global'
+              category: 'components'
             }
           }
         },
