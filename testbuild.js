@@ -1,9 +1,10 @@
 import { register } from '@tokens-studio/sd-transforms';
 import StyleDictionary from 'style-dictionary';
 
-register(StyleDictionary, {
-  excludeParentKeys: true,
-});
+//register(StyleDictionary, {
+//  excludeParentKeys: true,
+//});
+register(StyleDictionary);
 
 const sd = new StyleDictionary({
   source: ['tokens.json'],
