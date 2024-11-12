@@ -18,11 +18,11 @@ const sd = new StyleDictionary({
         {
           destination: 'variables.css',
           format: 'css/variables',
-          filter: {
-            attributes: {
-              category: 'components'
-            }
-          }
+          //filter: {
+          //  attributes: {
+          //    category: 'components'
+          //  }
+          //}
         },
       ],
     },
