@@ -18,6 +18,7 @@ const sd = new StyleDictionary({
         {
           destination: 'variables.css',
           format: 'css/variables',
+          filter: (token) => token.path[0] === 'semantic',
           //filter: {
           //  attributes: {
           //    category: 'components'
