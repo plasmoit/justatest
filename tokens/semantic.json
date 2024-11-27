@@ -1,0 +1,311 @@
+{
+  "color": {
+    "text": {
+      "subtle": {
+        "value": "{colors.neutral.60}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "base": {
+        "value": "{colors.neutral.70}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "strong": {
+        "value": "{colors.neutral.80}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "heavy": {
+        "value": "{colors.neutral.90}",
+        "type": "color",
+        "prefix": "semantic"
+      }
+    },
+    "background": {
+      "base": {
+        "value": "{colors.white}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "subtle": {
+        "value": "{colors.neutral.10}",
+        "type": "color",
+        "prefix": "semantic"
+      }
+    },
+    "stroke": {
+      "base": {
+        "value": "{colors.neutral.40}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "strong": {
+        "value": "{colors.neutral.60}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "subtle": {
+        "value": "{colors.neutral.30}",
+        "type": "color",
+        "prefix": "semantic"
+      }
+    },
+    "interactive": {
+      "subtle": {
+        "value": "{colors.prblue.10}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "base": {
+        "value": "{colors.prblue.80}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "strong": {
+        "value": "{colors.prblue.90}",
+        "type": "color",
+        "prefix": "semantic"
+      },
+      "heavy": {
+        "value": "{colors.prblue.100}",
+        "type": "color",
+        "prefix": "semantic"
+      }
+    },
+    "feedback": {
+      "sucess": {
+        "subtle": {
+          "value": "{colors.success.10}",
+          "type": "color",
+          "prefix": "semantic"
+        },
+        "base": {
+          "value": "{colors.success.80}",
+          "type": "color",
+          "prefix": "semantic"
+        }
+      },
+      "danger": {
+        "subtle": {
+          "value": "{colors.error.10}",
+          "type": "color",
+          "prefix": "semantic"
+        },
+        "base": {
+          "value": "{colors.error.80}",
+          "type": "color",
+          "prefix": "semantic"
+        }
+      },
+      "warning": {
+        "subtle": {
+          "value": "{colors.warning.10}",
+          "type": "color",
+          "prefix": "semantic"
+        },
+        "base": {
+          "value": "{colors.warning.80}",
+          "type": "color",
+          "prefix": "semantic"
+        }
+      }
+    }
+  },
+  "distance": {
+    "zero": {
+      "value": "{size.00}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "ultraSmall": {
+      "value": "{size.20}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "extraSmall": {
+      "value": "{size.30}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "small": {
+      "value": "{size.40}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "compact": {
+      "value": "{size.50}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "medium": {
+      "value": "{size.60}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "large": {
+      "value": "{size.70}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "extraLarge": {
+      "value": "{size.80}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "doubleLarge": {
+      "value": "{size.90}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "tripleLarge": {
+      "value": "{size.100}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "jumbo": {
+      "value": "{size.110}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "mega": {
+      "value": "{size.120}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "giga": {
+      "value": "{size.130}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "terra": {
+      "value": "{size.140}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "cosmic": {
+      "value": "{size.150}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "colossal": {
+      "value": "{size.160}",
+      "type": "number",
+      "prefix": "semantic"
+    }
+  },
+  "size": {
+    "zero": {
+      "value": "{size.00}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "hairline": {
+      "value": "{size.10}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "ultraSmall": {
+      "value": "{size.20}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "extraSmall": {
+      "value": "{size.30}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "small": {
+      "value": "{size.40}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "compact": {
+      "value": "{size.50}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "medium": {
+      "value": "{size.60}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "large": {
+      "value": "{size.70}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "extraLarge": {
+      "value": "{size.80}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "doubleLarge": {
+      "value": "{size.90}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "tripleLarge": {
+      "value": "{size.100}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "jumbo": {
+      "value": "{size.110}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "mega": {
+      "value": "{size.120}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "giga": {
+      "value": "{size.130}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "terra": {
+      "value": "{size.140}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "cosmic": {
+      "value": "{size.150}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "colossal": {
+      "value": "{size.160}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "titan": {
+      "value": "{size.170}",
+      "type": "number",
+      "prefix": "semantic"
+    }
+  },
+  "breakpoint": {
+    "mobile": {
+      "value": "{breakpoint.20}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "tablet": {
+      "value": "{breakpoint.30}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "desktop": {
+      "value": "{breakpoint.40}",
+      "type": "number",
+      "prefix": "semantic"
+    },
+    "largeDesktop": {
+      "value": "{breakpoint.60}",
+      "type": "number",
+      "prefix": "semantic"
+    }
+  }
+}
